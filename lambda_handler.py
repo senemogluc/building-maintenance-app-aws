@@ -355,3 +355,4 @@ def assignTicketRole(event, context):
             'statusCode': 500,
             'body': json.dumps(e.response['Error']['Message'])
         }
+    
